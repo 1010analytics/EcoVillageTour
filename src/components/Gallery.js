@@ -33,7 +33,7 @@ const Gallery = () => {
 
   return (
     <>
-        <div className = 'm-10 pt-10 px-5 md:px-10 '> 
+        <div id = "gallery" className = 'm-10 pt-10 px-5 md:px-10 '> 
             <div className='text-2xl text-orange-950 font-medium mb-4 '>
                 Gallery
             </div>

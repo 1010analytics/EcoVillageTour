@@ -6,7 +6,7 @@ import packageData from "../utils/PackageData";
 const BookingPage = () => {
   console.log(packageData);
   return (
-    <div>
+    <div id = "bookings">
       {/* <Navbar /> */}
       <div className="relative">
         {/* <img src = {packageImg} className='w-full h-96 opacity-80' /> */}

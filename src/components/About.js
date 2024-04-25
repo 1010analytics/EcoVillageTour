@@ -7,7 +7,7 @@ import b4 from '../assests/b4.webp'
 
 const About = () => {
   return (
-    <div className='m-10'>
+    <div id = 'about' className='m-10'>
         <div className='text-2xl text-orange-950 font-medium'>
             About Us
         </div>

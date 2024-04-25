@@ -5,11 +5,12 @@ import packageImg from "../assests/package.jpg";
 const Contact = () => {
   return (
     <>
-        <div className="mt-10 pt-5">
+        <div id = "contact" className="mt-10 pt-5">
             <div className="text-2xl text-orange-950 font-medium">Contact Us</div>
             <div className='relative mt-3'>
                 <img src = {packageImg} className='w-full ' style={{"height" : "80vh"}}/> 
-                <div className='absolute bg-white top-8 p-8 left-20 rounded-md shadow-lg	'>
+
+                <div className='absolute bg-orange-50 left-10 top-8 p-8 md:left-20 rounded-md shadow-lg	'>
                     <h3 className='text-orange-800 text-xl'>Send your enquiry here</h3>
                     <form className='flex flex-col text-left text-orange-800'>
                         <div className='flex flex-col my-3 '>
@@ -30,6 +31,15 @@ const Contact = () => {
         
                     </form>
 
+                </div>
+
+                <div className='absolute bg-orange-50 hidden lg:block md:top-8 md:right-20 rounded-md shadow-lg p-8 '>
+                    <h3 className='text-orange-800 text-xl'>Our Address : </h3>
+                    <p className='text-orange-900'>Betul, Madhya Pradesh(200 km from Bhopal)</p>
+                    <h3 className='text-orange-800 text-xl mt-2'>Our Email : </h3>
+                    <p className='text-orange-900'>demo123@gmail.com</p>
+                    <h3 className='text-orange-800 text-xl mt-2'>Open hours : </h3>
+                    <p className='text-orange-900'>10:00 a.m. - 5:00 p.m.</p>
                 </div>
 
 

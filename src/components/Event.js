@@ -3,7 +3,7 @@ import React from 'react'
 const Event = () => {
   return (
     <>
-    <div className = 'm-10 pt-5'>
+    <div id = "events" className = 'm-10 pt-5'>
         <div className='text-2xl text-orange-950 font-medium mb-4 pt-5'>
             Our Events
         </div>
